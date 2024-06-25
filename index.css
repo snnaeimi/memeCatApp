@@ -1,0 +1,108 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+    color: #d81159;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+header{
+    position: relative;
+    font-family: "playwrite";
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.meme-header{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.getImgBtn{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #7ebeec;
+    color: #d81159;
+    font-weight: bold;
+    border: 1px solid #5ba3d6;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #5ba3d6;
+    cursor: pointer;
+ 
+}
+
+#giftOnly{
+    margin-bottom: 20px;
+}
+
+.moodsPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.highlight{
+    background-color: #fff0ee;
+    color: #bd301d;
+    font-weight: bold;
+    accent-color: #bd301d;
+}
+
+.radio{
+    border: 2px solid #5ba3d6;
+    display: flex;
+    justify-content: space-between;
+    /* text-alig?n: center; */
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.contianerMeme{
+    display: none;
+    width: 400px;
+    height: 400px;
+    background-color: bisque;
+    position: absolute;
+    top: 200px;
+    left: 37%;
+}
+
+.cat-img{
+    max-width: 280px;
+    max-height: 360px;
+    border-radius: 5px;
+}
+
+.innerMeme{
+    margin: auto auto;
+}
+
+.closeBtn{
+    position: absolute;
+    right: 0;
+    border: none;
+    color: red;
+    font-size: 18px;
+}
+
+
+

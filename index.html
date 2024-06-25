@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Cat Picker</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="meme-header">Meme Picker</h1>
+            <img src="./images/catMeme.jpeg" alt="A white cat with a yellow sunglasses and a blue background">
+        </header>
+        <section>
+            <div class="mainContainer">
+                <h2>Select your current mood</h2>
+                <div class="moodsPart" id="moodsPartId"></div>
+                <div>
+                    <label for="giftOnly">Animated GIFs only</label>
+                    <input id="giftOnly" type="checkbox" name="animated"> 
+                </div>
+                
+                <button class="getImgBtn" id="getImgBtn">Get image</button>
+            </div>
+        </section>
+        <section>
+            <div class="contianerMeme" id="containerMeme">
+                <button class="closeBtn" id="closeBtn">X</button>
+                <div class="innerMeme" id="innerMeme"></div>
+            </div>
+        </section>
+
+    </div>
+</body>
+<script src="index.js" type="module"></script>
+</html>
